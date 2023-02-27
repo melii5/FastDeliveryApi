@@ -39,11 +39,7 @@ public class CustomersController : ControllerBase
         //     request.Email,
         //     request.Address
         // );
-        //var customers = await _customerRepository.GetAll();
-        if (request.PhoneNumber == "")
-        {
-            throw new EmptyPhoneException("The phoneNumber is required");
-        }
+        
         _customerRepository.Add(customer);
 
         await _unitOfWork.SaveChangesAsync();
@@ -61,6 +57,11 @@ public class CustomersController : ControllerBase
         if (request.Id != id)
         {
             throw new BadRequestException("Body Id is not equal than Url Id");
+        }
+
+        if (request.Status != true)
+        {
+            throw new StatusChangementException("You don't have permission to change this data");
         }
 
         var customer = await _customerRepository.GetCustomerById(id);

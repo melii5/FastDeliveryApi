@@ -49,8 +49,7 @@ public class ExceptionMiddleware
                 errorDetail.ErrorType = "Bad Request";
                 break;
 
-          
-            case EmptyPhoneException badRequestException:
+            case StatusChangementException badRequestException:
                 statusCode = HttpStatusCode.BadRequest;
                 errorDetail.ErrorType = "Bad Request";
                 break;

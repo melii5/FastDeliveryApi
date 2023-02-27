@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\w11\\Documents\\Modulo 01 - BackEnd\\FastDeliveryApi-1\\FastDeliveryApi.csproj": {}
+    "C:\\laragon\\www\\FastDeliveryApi\\FastDeliveryApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\w11\\Documents\\Modulo 01 - BackEnd\\FastDeliveryApi-1\\FastDeliveryApi.csproj": {
+    "C:\\laragon\\www\\FastDeliveryApi\\FastDeliveryApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\w11\\Documents\\Modulo 01 - BackEnd\\FastDeliveryApi-1\\FastDeliveryApi.csproj",
+        "projectUniqueName": "C:\\laragon\\www\\FastDeliveryApi\\FastDeliveryApi.csproj",
         "projectName": "FastDeliveryApi",
-        "projectPath": "C:\\Users\\w11\\Documents\\Modulo 01 - BackEnd\\FastDeliveryApi-1\\FastDeliveryApi.csproj",
-        "packagesPath": "C:\\Users\\w11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\w11\\Documents\\Modulo 01 - BackEnd\\FastDeliveryApi-1\\obj\\",
+        "projectPath": "C:\\laragon\\www\\FastDeliveryApi\\FastDeliveryApi.csproj",
+        "packagesPath": "C:\\Users\\mendez\\.nuget\\packages\\",
+        "outputPath": "C:\\laragon\\www\\FastDeliveryApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\w11\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mendez\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[7.0.1, )"
             },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -88,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
